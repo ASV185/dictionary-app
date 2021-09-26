@@ -1,0 +1,34 @@
+.Meaning h4 {
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #dedbc3;
+  text-shadow: 2px 2px 2px black;
+}
+
+.Meaning .example {
+  color: #96968b;
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.Meaning .definition {
+  color: #baaa64;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+
+.Meaning .Synonyms {
+  color: #548d92;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin: 0;
+  margin: 15px auto;
+  text-transform: capitalize;
+}
