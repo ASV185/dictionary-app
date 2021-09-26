@@ -30,6 +30,7 @@ export default function Dictionary(){
             <h2>/Dictionary App/</h2>
             <form onSubmit={search}>
                 <input type="search" onChange={handlekeywordChange}/>
+                <button type="button" className="btn btn-dark">Search</button>
             </form>
             <Results results={results}/>
         </div>
