@@ -30,8 +30,8 @@ export default function Dictionary(props){
             <h1>Ling-con</h1>
             <h2>/Dictionary App/</h2>
             <form onSubmit={search}>
-                <input type="search" onChange={handlekeywordChange}/>
-                <button type="button" className="btn btn-dark">Search</button>
+                <input type="search" onChange={handlekeywordChange} defaultValue={props.defaultkeyword}/>
+                <button type="button" className="button">Search</button>
             </form>
         
             <Results results={results}/>
