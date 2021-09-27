@@ -9,7 +9,7 @@
 .Meaning .example {
   color: #96968b;
   font-style: italic;
-  margin-top: 10px;
+  margin-top: 12px;
   font-size: 16px;
   text-transform: capitalize;
 }
@@ -25,10 +25,11 @@
 
 .Meaning .Synonyms {
   color: #548d92;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   display: block;
   margin: 0;
   margin: 15px auto;
   text-transform: capitalize;
+  text-shadow: 0 1px 2px black;
 }
