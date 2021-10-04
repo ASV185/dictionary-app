@@ -56,6 +56,12 @@ export default function Dictionary(props){
         
             <Results results={results}/>
             <Photos photos={photos}/>
+            <footer>
+                This website is created by Amanda Ventura and {""} 
+                <a href="https://github.com/ASV185/dictionary-app" target="_blank" rel="noreferrer">
+                     open-source
+                </a>
+            </footer>
         </div>
     );
 }else {
