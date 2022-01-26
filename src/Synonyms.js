@@ -12,5 +12,5 @@ export default function Synonyms(props){
         );
     }else{
         return null;
-    }
+    }// Using map function to receive synonyms data information 
 }

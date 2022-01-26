@@ -28,5 +28,5 @@ export default function Results(props){
     );
     }else{
         return null;
-    }
+    }// Receive word searched, added two map functions to receive data for phonetics and meaning of word searched
 }

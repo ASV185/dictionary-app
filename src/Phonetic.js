@@ -11,5 +11,5 @@ export default function Phonetic(props){
             <br/>
             <span className="text">/{props.phonetic.text}/</span>
         </div>
-    );
+    ); //Received audio phonetic information from API
 }

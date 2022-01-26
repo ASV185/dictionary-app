@@ -21,5 +21,5 @@ export default function Photos(props){
    );
 }else{
     return null;
- }
+ }//Used another map function to receive photos from API
 }

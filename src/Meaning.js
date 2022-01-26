@@ -20,5 +20,5 @@ export default function Meaning(props){
                 );
             })}
         </div>
-    );
+    ); //Received parts of speech, definition, examples, and add a part for the synonyms by using a map function
 }
