@@ -28,7 +28,7 @@ export default function Dictionary(props){
         axios.get(apiUrl).then(handleDictionResponse);
 
         let pexelsApiKey="563492ad6f917000010000014927e3766700435cad1a0efc634e479c";
-        let pexelsApiUrl=`https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
+        let pexelsApiUrl=`https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
         let headers={Authorization:`Bearer ${pexelsApiKey}`};
         axios.get(pexelsApiUrl, {headers:headers}).then(handlePexelsResponse);
     } // When search in input received data using APIs
@@ -47,21 +47,27 @@ export default function Dictionary(props){
     if (loaded){
     return(
         <div className="Dictionary">
-            <h1>Ling-con</h1>
-            <h2>/Dictionary App/</h2>
-            <form onSubmit={handleSubmit}>
-                <input type="search" onChange={handlekeywordChange} defaultValue={props.defaultKeyword}/>
-                <button type="search" className="button">Search</button>
-            </form>
-        
-            <Results results={results}/>
-            <Photos photos={photos}/>
+            <div className="row">
+                <div className="col-md-6">
+                    <h1>Ling-con</h1>
+                    <h2>/Dictionary App/</h2>
+                    <form onSubmit={handleSubmit}>
+                        <input type="search" onChange={handlekeywordChange} defaultValue={props.defaultKeyword}/>
+                        <button type="search" className="button">Search</button>
+                    </form>
+                    <br/>
+                    <Photos photos={photos}/>
+                </div>
+                <div className="col-md-6">
+                  <Results results={results}/>  
+                </div> 
             <footer>
-                This website is created by Amanda Ventura and {""} 
+                This website is created by Amanda Ventura and it is {""} 
                 <a href="https://github.com/ASV185/dictionary-app" target="_blank" rel="noreferrer">
-                     open-source
+                       open-sourced
                 </a>
-            </footer>
+            </footer> 
+            </div>
         </div>
     ); // If results are received from APIs, to return API information.
 }else {

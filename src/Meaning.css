@@ -1,9 +1,9 @@
 .Meaning h4 {
-  font-size: 36px;
+  font-size: 38px;
   line-height: 1.5;
   font-weight: bold;
-  color: #dedbc3;
-  text-shadow: 2px 2px 2px black;
+  color:#161616 ;
+  text-shadow: 5px 5px 10px rgb(0 0 0/30%);
 }
 
 .Meaning .example {

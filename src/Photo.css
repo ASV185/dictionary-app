@@ -1,5 +1,8 @@
-.Photos img {
-  border-radius: 4px;
-  margin-bottom: 40px;
+img {
+  display:flex;
+  flex-wrap: wrap;
   right: 200px;
+  width: 800px;
+  height: 600px;
+  border: 5px solid white;
 }

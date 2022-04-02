@@ -1,5 +1,5 @@
 .Dictionary {
-  background-color: #0c4a54;
+  background: #EFE7DC;
 }
 
 .Dictionary form {
@@ -9,25 +9,29 @@
 }
 
 .Dictionary h1 {
-  font-size: 70px;
-  color: #efe9c7;
+  font-size: 120px;
+  color: #232526;
+  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to right, #414345, #232526);
+  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: block;
   margin: 0;
   text-align: center;
-  font-family: "Dancing Script", cursive;
-  text-shadow: 3px 3px 3px black;
+  font-family: 'Anybody', cursive;
+  text-shadow: 5px 5px 10px rgb(0 0 0/30%);
 }
 
 .Dictionary h2 {
-  font-size: 20px;
+  font-size: 30px;
   display: block;
   margin: 0;
   text-align: center;
   margin-bottom: 15px;
   font-weight: bolder;
   font-family: "Source Serif Pro", serif;
-  color: #548d92;
-  text-shadow: 3px 3px 3px black;
+  color: #0c0c0c;
 }
 
 .Dictionary input {
@@ -35,14 +39,15 @@
   border-radius: 5px;
   padding: 10px 5px;
   margin-right: 10px;
+  border:none;
+  box-shadow: 5px 5px 10px rgb(0 0 0/30%);
 }
 
 .Dictionary section {
-  background-color: #0a2225;
-  color: #dedbc3;
+  background:#EFE7DC;
   padding: 30px;
   border-radius: 16px;
-  box-shadow: 20px 10px rgb(0 0 0/30%);
+  box-shadow: 0 5px 10px rgb(0 0 0/30%);
   margin: 20px 0;
   font-weight: bolder;
   font-family: "Source Serif Pro", serif;
@@ -50,16 +55,19 @@
 }
 
 .Dictionary button {
-  background-color: #3e512e;
-  color: #efe9c7;
-  padding: 10px 15px;
-  border-radius: 15px;
+  background: #cfc5c1;
+  color: #0c0c0c;
+  padding: 10px 10px;
+  border-radius: 10px;
   font-size: 16px;
+  font-weight: 500;
+  border:none;
+  box-shadow: 5px 5px 10px rgb(0 0 0/30%);
 }
 
 .Dictionary footer {
   color: #baaa64;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 5px 5px 10px rgb(0 0 0/30%);
   font-size: 20px;
   font-family: "Source Serif Pro", serif;
   text-align: center;
