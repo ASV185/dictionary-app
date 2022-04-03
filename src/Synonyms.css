@@ -11,10 +11,10 @@
   line-height: 1;
   color: #f05454;
   font-weight: bolder;
-  background-color: blanchedalmond;
+  background-color: rgb(240, 237, 233);
   text-transform: capitalize;
   border-inline-color: black;
   border-radius: 5px;
-  font-family: "Koh Santepheap", cursive;
+  font-family: 'Anybody', cursive;
   text-shadow: 1px 0 1px black;
 }
