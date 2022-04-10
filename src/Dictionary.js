@@ -64,7 +64,7 @@ export default function Dictionary(props){
             <footer>
                 This website is created by Amanda Ventura and it is {""} 
                 <a href="https://github.com/ASV185/dictionary-app" target="_blank" rel="noreferrer">
-                       open-sourced
+                       open-sourced.
                 </a>
             </footer> 
             </div>

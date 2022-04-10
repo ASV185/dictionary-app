@@ -66,10 +66,22 @@
 }
 
 .Dictionary footer {
-  color: #baaa64;
+  background-color: #548d92;
+  color: #ffffff;
   text-shadow: 5px 5px 10px rgb(0 0 0/30%);
   font-size: 20px;
   font-family: "Source Serif Pro", serif;
   text-align: center;
   font-weight: bolder;
+  padding: 50px 50px;
+}
+
+footer a {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(2, 2, 248);
+  text-decoration: underline;
 }
