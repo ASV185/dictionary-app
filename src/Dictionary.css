@@ -16,21 +16,20 @@
   /* Chrome 10-25, Safari 5.1-6 */
   color: linear-gradient(to right, #414345, #232526);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  display: block;
-  margin: 0;
   text-align: center;
-  font-family: 'Anybody', cursive;
+  font-family: 'Noto Serif TC',
+  serif;
   text-shadow: 5px 5px 10px rgb(0 0 0/30%);
 }
 
 .Dictionary h2 {
   font-size: 30px;
-  display: block;
-  margin: 0;
   text-align: center;
   margin-bottom: 15px;
   font-weight: bolder;
-  font-family: "Source Serif Pro", serif;
+  font-family: 'Noto Serif',
+  serif;
+  padding: 10px;
   color: #0c0c0c;
 }
 
@@ -50,8 +49,10 @@
   box-shadow: 0 5px 10px rgb(0 0 0/30%);
   margin: 20px 0;
   font-weight: bolder;
-  font-family: "Source Serif Pro", serif;
+  font-family: 'Playfair Display',
+  serif;
   text-decoration-color: black;
+  color: #232526;
 }
 
 .Dictionary button {
@@ -69,10 +70,10 @@
   background-color: #548d92;
   color: #ffffff;
   text-shadow: 5px 5px 10px rgb(0 0 0/30%);
-  font-size: 20px;
-  font-family: "Source Serif Pro", serif;
+  font-size: 18px;
+  font-family: 'Noto Serif',
+  serif;
   text-align: center;
-  font-weight: bolder;
   padding: 50px 50px;
 }
 
